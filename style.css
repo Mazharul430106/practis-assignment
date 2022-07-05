@@ -60,10 +60,51 @@
 
 .btn {
     background-image: linear-gradient(to left, #0691F7, #10AFFB);
-    padding: 7px 15px;
+    padding: 7px 25px;
     border-radius: 20px;
     color: white;
     text-transform: capitalize;
 }
 
 /* Header section style end now */
+
+/* About section style start now */
+#about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.ab_box {
+    width: 50%;
+}
+
+.ab_box h2 {
+    font-size: 40px;
+    color: #555;
+}
+
+.ab_box p {
+    padding: 25px 0;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 80px;
+}
+
+.ab_box .ab_img {
+    width: 50%;
+    text-align: center;
+}
+
+.img_center {
+    text-align: center;
+}
+
+
+
+/* About section style start now */

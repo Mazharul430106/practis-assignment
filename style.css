@@ -38,7 +38,7 @@
 }
 
 .half-width h1 span {
-    color: #13B7FC;
+    color: #10AFFB;
 
 }
 
@@ -108,14 +108,12 @@
 /* About section style start now */
 
 /* recipies-section style start now */
-#recipies-section {
-    padding: 50px 0;
-}
 
 #recipies-section .title {
     text-align: center;
     text-transform: capitalize;
     font-size: 40px;
+    padding-top: 40px;
     color: #555;
 }
 
@@ -156,3 +154,44 @@
 }
 
 /* recipies-section style end now */
+
+/* rating section style start now */
+#rating-section {
+    padding: 50px 0;
+}
+
+.rating-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 7%;
+    padding: 25px 10%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+.rating-box div h2 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+/* rating section style end now */
+
+/* footer section style start now  */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer h2 {
+    text-transform: capitalize;
+    padding: 15px 0;
+}
+
+footer span {
+    color: #10AFFB;
+}
+
+/* footer section style end now  */
